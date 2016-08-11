@@ -69,7 +69,7 @@ You will require the following dependencies:
 ### Configuration
 
 
-There is several ways to configure Maestrano. You can either use our developer platform, load a properties files or at runtime using a Properties instance variable. Maestrano configuration is flexible and you can combine any of those methods to configure the app.
+There is several ways to configure Maestrano. You can either use our developer platform, load a properties file or at runtime using a Properties instance variable. Maestrano configuration is flexible and you can combine any of those methods to configure the app.
 
 #### Via the developer platform
 
@@ -77,7 +77,7 @@ The [developer platform](https://dev-platform.maestrano.com) is the easiest way 
 
 A `dev-platform.properties` config file is loaded using:
 ```java
-Maestrano:autoConfigure("/path/to/dev-platform.propertie");
+Maestrano:autoConfigure("/path/to/dev-platform.properties");
 ```
 The properties file may look like this:
 ```ini
